@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 36vw;
+    position: relative;
+}
+
+.left {
+    background-color: #d63447;
+    height: 36vw;
+    width: 50%;
+    float: left;
+    position: absolute;
+}
+
+.right {
+    width: 50%;
+    height: 36vw;
+    position: relative;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.major1 {
+    position: relative;
+    width: 100%;
+    height: 18vw;
+    margin: 0;
+    padding: 0;
+}
+
+.major2 {
+    position: relative;
+    width: 100%;
+    height: 18vw;
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    width: 50%;
+    height: 18vw;
+    background-color: #f57b51;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.box2 {
+    width: 50%;
+    height: 18vw;
+    background-color: #f5cab3;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.box3 {
+    width: 50%;
+    height: 18vw;
+    background-color: #f6eedf;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.box4 {
+    width: 50%;
+    height: 18vw;
+    background-color: #ea728c;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    width: 100%;
+    height: 36vw;
+    position: relative;
+}
+
+.major11 {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.major33 {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    float: right;
+}
+
+.major22 {
+    width: 50%;
+    height: 100%;
+    background-color: #a6b1e1;
+    position: relative;
+    float: left;
+}
+
+.minor11 {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: #FFC0CB;
+}
+
+.minor22 {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    background-color: ##F7347A;
+}
+
+.minor33 {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: #f4eeff;
+}
+
+.minor44 {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: #ea728c;
+    bottom: 0;
+}
+
+.container3 {
+    width: 100%;
+    height: 35vh;
+    position: relative;
+}
+
+.smallbox1 {
+    width: 25%;
+    height: 35vh;
+    background-color: #6e5773;
+    float: left;
+}
+
+.smallbox2 {
+    width: 25%;
+    height: 35vh;
+    background-color: #d45079;
+    float: left;
+}
+
+.smallbox3 {
+    width: 25%;
+    height: 35vh;
+    background-color: #ea9085;
+    float: left;
+}
+
+.smallbox4 {
+    width: 25%;
+    height: 35vh;
+    background-color: #e9e1cc;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    height: 8vh;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    color: aqua;
+}
+
+.box4 img {
+    width: 100%;
+    height: 18vw;
+    opacity: 0.4;
+}
+
+.minor22 img {
+    width: 100%;
+    height: 18vw;
+    opacity: 0.5;
+}
+
+.left img {
+    height: 36vw;
+    width: 100%;
+    opacity: 0.05;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.smallbox4 img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.left p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 23vh;
+    padding: 0;
+    margin: 0;
+    transform: translateY(60%);
+}
+
+.left span {
+    position: relative;
+    top: 20vh;
+    font-family: fantasy;
+}
+
+.box2 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    margin: 2vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1.5;
+}
+
+.box1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.box3 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    margin: 2vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1.5;
+}
+
+.major22 img {
+    width: 100%;
+    height: 100%;
+}
+
+.minor11 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    margin: 2vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1.5;
+}
+
+.minor33 img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.minor44 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    margin: 2vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1.5;
+}
+
+.smallbox1 p,
+.smallbox3 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    margin: 2vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1.5;
+    width: 25%;
+}
+
+.smallbox2 img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
